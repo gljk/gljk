@@ -1,12 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gljk
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - gljk/VI-CDI-MG
+  - gljk/VI-CDI-IM
+  - gljk/VI-CDI-IMAR
+  - gljk/VI-CDI-VN
+  - gljk/VI-CDI-VL
+  - gljk/VI-CDI-JPD2
+  - gljk/VI-CDI-IP
+  - gljk/VI-CDI-AS
+  - gljk/VI-CDI-MR

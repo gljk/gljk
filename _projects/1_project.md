@@ -1,80 +1,78 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Predupredimo
+description: Research project
+img: assets/img/Predupredimo/stopdeath.png
 importance: 1
-category: work
+category: research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Premature mortality in Serbia is a problem that is often overlooked. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The goal fo this reserch project  was to quantify the premature mortality in Serbia. 
+Researching both the total premature mortality, as well as the mortality caused by the COVID-19 pandemic and PM2.5 air pollution. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In this individual research project I use detailed mortality (vital statistics based) data which I then combined  with remote sensing data of PM2.5 to estimate how affected are the municipalities of Serbia by air pollution. 
+
+Results show that Serbia loses over half a million years of potential life per year. Premature mortality due to PM2.5 air pollution is most prominent in municipalities of Vojvodina (North Banat). Results indicate that the initial year of pandemic does not paint a full picture when it comes to premature mortality caused by COVID-19. The paper offers recommendations in the form of a needed paradigm shift when it comes to population policy (instead of a pronatalist one – to one that focuses on improvement of public health as a population policy), revision of strategic documents, focus on prevention and opening data as a cheap way to encourage research, inform and educate the public.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image2.png" title="Overall Premature Mortalty" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image3.png" title="Distribution of pm2.5 pollution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image4.png" title="COVID-19 Premature Mortalty" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The project included a spatial analysis of the premature mortality as well as the distribtion of PM2.5 airpolution in Serbia.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image1.png" title="Premature mortality by causes of death" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This figure shows how different causes of death contribute to premature mortality in Serbia 2020. 
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+In this project I also looked into the cost of the pandemic in 2020 to premature deaths in Serbia. In 2020 alone, 64620 years of potential life were lost directly by COVID-19, i.e., 1019.14 years of potential life per 100.000 people younger than 75. Men lost 2.5 as many potential years of life then women did. Moreover, the region of eastern and Southern Serbia fared much worse than any other region.  In 2020 more than $0.34 billion was lost to premature deaths, and by the end of 2021, this number will likely be well over $1 billion when the pandemic ends. 
 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/figure1.jpg" title="Premature mortality in Serbia 2017-2020 " class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/figsmall.png" title="Distribution of Premature mortality in Serbia for 2020" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    COVID-19 premature mortality in Serbia 2020.
+</div>
+
+An interactive version of the premature mortality in Serbia available at <a href="predupredimo.rs" target="_blank">predupredimo.rs</a> (in Serbian language).
+
+<div style="position: relative;">
+<iframe style= "    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;" src="https://gljk.github.io/VI-CDI-MG"></iframe>
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<div class="publications">
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  
+  {% bibliography -f papers -q @*[title=The {Effects} of {COVID}-19 {Pandemic} on the {Premature} {Mortality} in {Serbia} in 2020]* %}
+ 
+ 
 </div>
-```
-{% endraw %}
+
+
+This reaserch project was supported by the Open Society Foundation, Serbia as part of the project "Serbia and Global Challenges: Towards Fairer and More Democratic Public Policies"

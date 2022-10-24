@@ -8,13 +8,12 @@ middle_name:
 last_name: Galjak
 email: galjak@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Activist, Data Scientist, and Researcher
-footer_text: >
-  This is the footer
+  Activist, Data Scientist, and Researcher
+footer_text: #
 keywords: demography, data science, serbia, social network analysis, epidemiology, computational  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://gljk.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -108,10 +107,10 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+#blog_name: al-folio # blog_name will be displayed in your blog page
+#blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+#blog_description: a simple whitespace theme for academics
+#permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
@@ -177,7 +176,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-imagemagick
@@ -235,7 +233,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: galjak.bib
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
