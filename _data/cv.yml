@@ -80,6 +80,16 @@
       items: 
         - Predupredimo - Open Society Foundation, Serbia (Belgrade, RS)
 
+- title: Positions
+  type: time_table
+  contents:
+    - title: Member of the Presidium (Secretary)
+      institution: The Association of Demographers of Serbia
+      year: 2018 - now
+    - title: Production Editor
+      institution: Stanovništvo (Journal)
+      year: 2021 - now
+
 - title: Academic Interests
   type: nested_list
   contents:
