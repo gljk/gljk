@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Predupredimo
-description: Research project
+description: Research & Data Collection Project
 img: assets/img/Predupredimo/stopdeath.png
 importance: 1
 category: research
 ---
 
-Premature mortality in Serbia is a problem that is often overlooked. 
+Premature mortality in Serbia is a problem that is often overlooked.
 
 The goal fo this reserch project  was to quantify the premature mortality in Serbia. 
 Researching both the total premature mortality, as well as the mortality caused by the COVID-19 pandemic and PM2.5 air pollution. 

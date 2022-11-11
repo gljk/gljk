@@ -12,42 +12,42 @@
   type: time_table
   contents:
     - title: PhD of Demography
-      institution: University of Belgrade, Faculty of Geography, Serbia
+      institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2022
       description:
         - Premature Mortality in Serbia
       
     - title: MSc of Social Sciences and Computing
-      institution:  University of Belgrade, Serbia
+      institution:  The University of Belgrade, Serbia
       year: 2017
       description:
         - Application of the R Programming Language in Computer Analysis of Social Networks - Example of the 2016 Serbian Elections
 
     - title: MSc of Demography
-      institution: University of Belgrade, Faculty of Geography, Serbia
+      institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2014
       description:
         - Mortality in Serbia and the European Union - A Comparative Analysis
 
     - title: BS of Demography
-      institution: University of Belgrade, Faculty of Geography, Serbia
+      institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2011
       description:
         - Role of State in the Demographic Development - The Example of the United States
   
 
-- title: Experience
+- title: Work
   type: time_table
   contents:
     - title: Chief Data Scientist
       institution: Catalyst Balkans, Belgrade
       year: 2018 - now
       description:
-        - Member of the senior managment in charge of strategic decisions.
-        - Directs two teams in development and implementation of IT poroducts and services.
+        - Member of the senior management in charge of strategic decisions.
+        - Directs two teams in the development and implementation of IT products and services.
         
     - title: Research Assistant
-      institution: Institue of Social Sciencies, Belgrade
+      institution: Institute of Social Sciences, Belgrade
       year: 2018 - 2022
       description:
         - Published ten peer-reviewed papers.
@@ -58,16 +58,16 @@
       year: 2017-2018
       description:
         - Developed and implemented CiviCatalyst, a SaaS CRM product for nonprofits in the Western Balkans, based on CiviCRM open-source project.
-        - Developed GivingBalkans web application, a philantrhopy intelligence tool.
+        - Developed GivingBalkans web application, a philanthropy intelligence tool.
 
     - title: Volunteer Researcher
-      institution: Institute of Social Sciences and University of Belgrade, Faculty of Geography
+      institution: Institute of Social Sciences and The University of Belgrade, Faculty of Geography
       year: 2015 - 2016
       description:
         - Researching Demographic Phenomena for the Purpose of Public Policies in Serbia.
 
     - title: Demonstrator
-      institution: University of Belgrade, Faculty of Geography
+      institution: The University of Belgrade, Faculty of Geography
       year: 2014 - 2015
       description:
         - Labs for Business Statistics.
@@ -108,7 +108,7 @@
         - Factor Analysis
     - title: Philanthropy
       items:
-        - Data driven philanthropy
+        - Data-driven philanthropy
         - Crowdfunding
 
 - title: Other Interests
