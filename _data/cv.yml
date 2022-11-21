@@ -76,9 +76,12 @@
 - title: Grants
   type: time_table
   contents:
-    - year: 2021
-      items: 
-        - Predupredimo - Open Society Foundation, Serbia (Belgrade, RS)
+    - title: Predupredimo.rs
+      year: 2021
+      institution: Open Society Foundation, Serbia (Belgrade, RS)
+    - title: Alternative Energy in Serbia? - “Yes, but Not in My Backyard!”
+      year: 2022
+      institution: Open Society Foundation, Serbia (Belgrade, RS)
 
 - title: Positions
   type: time_table

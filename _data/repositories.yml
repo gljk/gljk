@@ -2,6 +2,9 @@ github_users:
   - gljk
 
 github_repos:
+  - gljk/predupredimo.rs
+  - gljk/Prevremeni-mortalitet-u-Srbiji
+  - gljk/Master-rad
   - gljk/VI-CDI-MG
   - gljk/VI-CDI-IM
   - gljk/VI-CDI-IMAR

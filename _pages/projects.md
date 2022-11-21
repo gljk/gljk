@@ -1,10 +1,10 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 nav: true
 nav_order: 2
-display_categories: [research, nonprofit]
+display_categories: [Research, Nonprofit]
 horizontal: false
 ---
 

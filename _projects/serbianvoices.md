@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Serbian Voices
-description: Research Project
+description: Research & Data Collection Project
 img: assets/img/serbianvoices-stablediff.png
 importance: 1
-category: nonprofit
+category: Nonprofit
 ---
 
 The project's goal was to assist Duke University's DevLab in gathering data for a Machine Learning system they Developed. Marko Galjak was in charge of the project's overall design, which involved developing a system for gathering news articles and gathering information from the social networking site Twitter. A tool for examining networks inside Serbia's Twittersphere was developed as part of that effort.
@@ -17,7 +17,8 @@ The premise of the project was that enough local context and understanding can b
     </div>
 </div>
 <div class="caption">
-    Serbian Twitterspheaer network of positive and negative communcation for a week.
+    Serbian Twittersphere network of positive and negative communication for a week.
 </div>
 
-This project was supported by the INSPIRES Consortium
+This project was supported by the INSPIRES Consortium withing Catalyst Balkans.
+The technical infrastructure for the project was realized by an extremely competent Data Science Backend Engineer <a href="https://www.linkedin.com/in/vladimirsiv/" target="_blank">Vladimir Sivčević</a>. 

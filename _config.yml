@@ -48,7 +48,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 900px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -76,7 +76,8 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: Marko-Galjak
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://idn.org.rs/en/%d0%bc%d0%b0%d1%80%d0%ba%d0%be-%d0%b3%d0%b0%d1%99%d0%b0%d0%ba/ # work page URL
+work2_url: https://catalystbalkans.org/en/home/about-us # work2 page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -117,7 +118,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: galjak # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.

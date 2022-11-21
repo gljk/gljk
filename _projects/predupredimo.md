@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Predupredimo
-description: Research & Data Collection Project
+description: Research Project
 img: assets/img/Predupredimo/stopdeath.png
 importance: 1
-category: research
+category: Research
 ---
 
 Premature mortality in Serbia is a problem that is often overlooked.
