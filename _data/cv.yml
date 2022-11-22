@@ -83,15 +83,19 @@
       year: 2022
       institution: Open Society Foundation, Serbia (Belgrade, RS)
 
-- title: Positions
+- title: Positions & Memberships
   type: time_table
   contents:
+    - title: Production Editor
+      institution: Stanovništvo (Journal)
+      year: 2021 - now  
     - title: Member of the Presidium (Secretary)
       institution: The Association of Demographers of Serbia
       year: 2018 - now
-    - title: Production Editor
-      institution: Stanovništvo (Journal)
-      year: 2021 - now
+    - title: Member
+      institution: The European Research Network on Philanthropy (ERNOP)
+      year: 2018 - now
+
 
 - title: Academic Interests
   type: nested_list
@@ -99,7 +103,7 @@
     - title: Demography
       items: 
         - Mortality
-        - Ageing
+        - Aging
     - title: Public Health
       items:
         - Premature Mortality
