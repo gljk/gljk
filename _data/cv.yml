@@ -39,6 +39,14 @@
 - title: Work
   type: time_table
   contents:
+    - title: Research Associate
+      institution: Institute of Social Sciences, Belgrade
+      year: 2023 - now
+      description:
+        - Developed Zotero style for Stanovništvo published by the Institute of Social Sciences.
+        - Produced  "Demographic Challenges in Serbia" virtual exhibition.
+        - Publishes peer-reviewed papers.
+
     - title: Chief Data Scientist
       institution: Catalyst Balkans, Belgrade
       year: 2018 - now
@@ -77,18 +85,21 @@
   type: time_table
   contents:
     - title: Predupredimo.rs
-      year: 2021
+      year: 2021 - 2022
       institution: Open Society Foundation, Serbia (Belgrade, RS)
     - title: Alternative Energy in Serbia? - “Yes, but Not in My Backyard!”
-      year: 2022
+      year: 2022 - 2023
       institution: Open Society Foundation, Serbia (Belgrade, RS)
 
 - title: Positions & Memberships
   type: time_table
   contents:
+    - title: Editorial Board Member
+      institution: Stanovništvo (Journal)
+      year: 2023 - now
     - title: Production Editor
       institution: Stanovništvo (Journal)
-      year: 2021 - now  
+      year: 2021 - 2023   
     - title: Member of the Presidium (Secretary)
       institution: The Association of Demographers of Serbia
       year: 2018 - now
@@ -109,6 +120,11 @@
         - Premature Mortality
         - Avoidable Mortality
         - COVID-19
+    - title: Artificial Intelligence
+      items:
+        - Application of AI in social sciences
+        - Application of AI in nonprofit sector
+        - Ethics of AI
     - title: Computational Social Science
       items:
         - Social Network Analysis
@@ -121,7 +137,7 @@
 - title: Other Interests
   type: list
   contents:
-    - Ethics
+    - Bioethics
     - Psychometrics
     - Open Science
     - Animal rights

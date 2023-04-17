@@ -2,6 +2,7 @@ github_users:
   - gljk
 
 github_repos:
+  - gljk/styles
   - gljk/predupredimo.rs
   - gljk/Prevremeni-mortalitet-u-Srbiji
   - gljk/Master-rad
