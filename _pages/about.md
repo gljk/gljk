@@ -18,8 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Marko has a PhD in Demography and two Master's degrees, one in Demography and the other in Computing in Social Sciences. His research carrier encompasses demography, public health, computational social science, ethics, and philanthropy.
+Marko holds a PhD in Demography, complimented by Master's degrees in both Demography and Computing in Social Sciences. His multi-disciplinary research career extends across demography, public health, computational social science, ethics, and philanthropy.
 
-Marko is a researcher at the Demographic Research Center of The Institute of Social Sciences in Belgrade.
+Currently, he serves as a researcher at the Demographic Research Center, part of The Institute of Social Sciences, Belgrade.
 
-Marko is an activist and has been part of civil society since high school. Marko runs the Data Products and Services department of a regional philanthropy infrastructure nonprofit Catalyst Balkans, working on a wide array of projects, including AI, Research, and CRM integration, all to strengthen the capacity of CSOs through the application of IT, data science, and philanthropy intelligence.
+Marko is not only a researcher but also a committed activist. He has been an integral part of civil society since his high school days. As the head of the Data Products and Services department at Catalyst Balkans, a regional philanthropy infrastructure nonprofit, Marko undertakes a diverse range of projects. These include AI, Research, and CRM integration, all aiming to bolster the capacity of CSOs by leveraging IT, data science, and philanthropy intelligence.
