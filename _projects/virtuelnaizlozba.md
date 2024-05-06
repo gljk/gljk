@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Demographic Challenges in Serbia
-description: Virtual exhibition of the Center for Demographic Research of the Institute of Social Sciences
+description: Virtual Exhibition of the Center for Demographic Research of the Institute of Social Sciences
 img: assets/img/VIzlozba.png
 importance: 2
 category: Research
 ---
 
-Virtual exhibition "Demographic Challenges of Serbia" was conceived as part of the celebration of 65 years since the establishment of the Institute of Social Sciences. THe interactive figures show various population phenomena, such as fertility, mortality, migration and socioeconomic characteristics of the population, including demographic forecasts. The items are a direct result of the work of the associates of the Center for Demographic Research. The common characteristic of all items is change. The most important demographic changes in the past three decades in Serbia and their consequences are presented.
+Virtual Exhibition "Demographic Challenges of Serbia" was conceived as part of the celebration of 65 years since the establishment of the Institute of Social Sciences. The interactive figures show various population phenomena, such as fertility, mortality, migration and socioeconomic characteristics of the population, including demographic forecasts. The items are a direct result of the work of the associates of the Center for Demographic Research. The common characteristic of all items is change. The most important demographic changes in the past three decades in Serbia and their consequences are presented.
 
 Program committee: Mirjana Rašević, Vladimir Nikitović, Marko Galjak
 Realization of the interactive charts: Marko Galjak

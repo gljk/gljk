@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Marko holds a PhD in Demography, complimented by Master's degrees in both Demography and Computing in Social Sciences. His multi-disciplinary research career extends across demography, public health, computational social science, ethics, and philanthropy.
+Marko holds a PhD in Demography, complemented by Master's degrees in both Demography and Computing in Social Sciences. His multi-disciplinary research career extends across demography, public health, computational social science, ethics, and philanthropy.
 
 Currently, he serves as a researcher at the Demographic Research Center, part of The Institute of Social Sciences, Belgrade.
 

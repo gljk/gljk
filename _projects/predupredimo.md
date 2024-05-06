@@ -38,7 +38,7 @@ Results show that Serbia loses over half a million years of potential life per y
 <div class="caption">
     This figure shows how different causes of death contributed to premature mortality in Serbia in 2020.
 </div>
-In this project, I also looked into the cost of the pandemic 2020 to premature deaths in Serbia. In 2020 alone, 64620 years of potential life were lost directly by COVID-19, i.e., 1019.14 years of potential life per 100.000 people younger than 75. Men lost 2.5 as many potential years of life then women did. Moreover, the region of eastern and Southern Serbia fared much worse than any other region. In 2020 more than $0.34 billion was lost to premature deaths; by the end of 2021, this number will likely be well over $1 billion when the pandemic ends.
+In this project, I also looked into the cost of the pandemic 2020 to premature deaths in Serbia. In 2020 alone, 64620 years of potential life were lost directly by COVID-19, i.e., 1019.14 years of potential life per 100.000 people younger than 75. Men lost 2.5 as many potential years of life than women did. Moreover, the region of eastern and Southern Serbia fared much worse than any other region. In 2020 more than $0.34 billion was lost to premature deaths; by the end of 2021, this number will likely be well over $1 billion when the pandemic ends.
 
 
 <div class="row justify-content-sm-center">

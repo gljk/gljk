@@ -101,12 +101,9 @@
 - title: Positions & Memberships
   type: time_table
   contents:
-    - title: Editorial Board Member
+    - title: Deputy Editor
       institution: Stanovništvo (Journal)
       year: 2023 - now
-    - title: Production Editor
-      institution: Stanovništvo (Journal)
-      year: 2021 - 2023   
     - title: Member of the Presidium (Secretary)
       institution: The Association of Demographers of Serbia
       year: 2018 - now
@@ -144,7 +141,8 @@
 - title: Other Interests
   type: list
   contents:
+    - Public Policy
     - Bioethics
     - Psychometrics
     - Open Science
-    - Animal rights
+    - Animal Rights
