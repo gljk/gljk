@@ -88,7 +88,7 @@
         - Labs for Business Statistics.
         - Labs for Computing.
 
-- title: Grants
+- title: Reserach Grants
   type: time_table
   contents:
     - title: Predupredimo.rs
@@ -97,6 +97,9 @@
     - title: Alternative Energy in Serbia? - “Yes, but Not in My Backyard!”
       year: 2022 - 2023
       institution: Open Society Foundation, Serbia (Belgrade, RS)
+    - title: Social Sciences Advancement Initiative
+      year: 2024 - now
+      institution: The Ministry of Science, Technological Development and Innovation of the Republic of Serbia through Serbia Accelerating Innovation and Entrepreneurship Project (SAIGE)
 
 - title: Positions & Memberships
   type: time_table
