@@ -20,5 +20,5 @@ The premise of the project was that enough local context and understanding can b
     Serbian Twittersphere network of positive and negative communication for a week.
 </div>
 
-This project was supported by the INSPIRES Consortium withing Catalyst Balkans.
+This project was supported by the INSPIRES Consortium within Catalyst Balkans.
 The technical infrastructure for the project was realized by an extremely competent Data Science Backend Engineer <a href="https://www.linkedin.com/in/vladimirsiv/" target="_blank">Vladimir Sivčević</a>. 
