@@ -31,3 +31,4 @@ The research project is being conducted in partnership with <a href="https://www
 
 
 This project is funded by The Ministry of Science, Technological Development and Innovation of the Republic of Serbia through Serbia Accelerating Innovation and Entrepreneurship Project (SAIGE).
+{% bibliography -f papers -q @*[project=SSAI]* %}
