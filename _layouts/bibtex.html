@@ -30,6 +30,13 @@
   <meta name="citation_abstract" content="{{ page.entry.abstract }}">
   {%- endif %}
   <meta name="citation_language" content="en">
+  <meta name="citation_fulltext_html_url" content="{{ page.url | absolute_url }}">
+  {%- if page.entry.keywords %}
+  {%- assign keyword_list = page.entry.keywords | split: "," %}
+  {%- for kw in keyword_list %}
+  <meta name="citation_keywords" content="{{ kw | strip }}">
+  {%- endfor %}
+  {%- endif %}
   </head>
 
   <!-- Body -->
