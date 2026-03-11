@@ -1,0 +1,110 @@
+---
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  <!-- Head -->
+  <head>
+  {% include head.html %}
+  <!-- Google Scholar / citation meta tags -->
+  <meta name="citation_title" content="{{ entry.title }}">
+  {%- for author in entry.author_array %}
+  <meta name="citation_author" content="{{ author.last }}, {{ author.first }}">
+  {%- endfor %}
+  {%- if entry.year %}
+  <meta name="citation_publication_date" content="{{ entry.year }}">
+  {%- endif %}
+  {%- if entry.journal %}
+  <meta name="citation_journal_title" content="{{ entry.journal }}">
+  {%- endif %}
+  {%- if entry.booktitle %}
+  <meta name="citation_conference_title" content="{{ entry.booktitle }}">
+  {%- endif %}
+  {%- if entry.doi %}
+  <meta name="citation_doi" content="{{ entry.doi }}">
+  {%- endif %}
+  {%- if entry.ft %}
+  <meta name="citation_pdf_url" content="{{ entry.ft | prepend: '/assets/pdf/' | absolute_url }}">
+  {%- endif %}
+  </head>
+
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+    {%- include header.html %}
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{ entry.title }}</h1>
+          <p class="post-meta">
+            {%- assign author_array_size = entry.author_array | size -%}
+            {%- for author in entry.author_array -%}
+              {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+              {%- assign author_is_self = false -%}
+              {%- if site.scholar.last_name contains author_last_name -%}
+                {%- if site.scholar.first_name contains author.first -%}
+                  {%- assign author_is_self = true -%}
+                {%- endif -%}
+              {%- endif -%}
+              {%- if forloop.length > 1 -%}
+                {%- if forloop.first == false -%}, {%- endif -%}
+                {%- if forloop.last -%} and {%- endif -%}
+              {%- endif -%}
+              {%- if author_is_self -%}
+                <strong>{{ author.first }} {{ author.last }}</strong>
+              {%- else -%}
+                {{ author.first }} {{ author.last }}
+              {%- endif -%}
+            {%- endfor %}
+          </p>
+          <p class="post-meta">
+            {%- assign proceedings = "inproceedings, incollection" | split: ',' -%}
+            {%- if entry.type == "article" -%}
+              <em>{{ entry.journal }}</em>
+            {%- elsif proceedings contains entry.type -%}
+              <em>In {{ entry.booktitle }}</em>
+            {%- endif %}
+            {%- if entry.month %} {{ entry.month | capitalize }}{%- endif %}
+            {%- if entry.year %} {{ entry.year }}{%- endif %}
+          </p>
+        </header>
+
+        <article class="post-content">
+          {%- if entry.abstract %}
+          <h2>Abstract</h2>
+          <p>{{ entry.abstract }}</p>
+          {%- endif %}
+
+          <div class="links mt-3">
+            {%- if entry.ft %}
+            <a href="{{ entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Full Text</a>
+            {%- endif %}
+            {%- if entry.doi %}
+            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            {%- endif %}
+          </div>
+
+          <h2 class="mt-4">BibTeX</h2>
+          <div class="position-relative">
+            <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-{{ entry.key }}').innerText)" class="btn btn-sm z-depth-0 position-absolute" style="top:0.5rem;right:0.5rem;">Copy</button>
+            <pre id="bibtex-{{ entry.key }}">{{ entry.bibtex | hideCustomBibtex }}</pre>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    {%- include footer.html %}
+
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
+  </body>
+</html>

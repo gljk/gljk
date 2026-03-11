@@ -28,7 +28,7 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title"><a href="{{ entry.url | relative_url }}">{{entry.title}}</a></div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
@@ -134,6 +134,9 @@
           {%- if entry.doi %}
           <a href="https://doi.org/{{ entry.doi }}" class="doi btn btn-sm z-depth-0" role="button">DOI</a>
         {%- endif %}
+          {%- if entry.ft %}
+            <a href="{{ entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Full Text</a>
+          {%- endif %}
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
