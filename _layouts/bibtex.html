@@ -26,6 +26,10 @@
   {%- if page.entry.ft %}
   <meta name="citation_pdf_url" content="{{ page.entry.ft | prepend: '/assets/pdf/' | absolute_url }}">
   {%- endif %}
+  {%- if page.entry.abstract %}
+  <meta name="citation_abstract" content="{{ page.entry.abstract }}">
+  {%- endif %}
+  <meta name="citation_language" content="en">
   </head>
 
   <!-- Body -->
@@ -49,8 +53,8 @@
                 {%- endif -%}
               {%- endif -%}
               {%- if forloop.length > 1 -%}
-                {%- if forloop.first == false -%}, {%- endif -%}
-                {%- if forloop.last -%} and {%- endif -%}
+                {%- if forloop.first == false -%},&nbsp;{%- endif -%}
+                {%- if forloop.last and forloop.first == false -%}and&nbsp;{%- endif -%}
               {%- endif -%}
               {%- if author_is_self -%}
                 <strong>{{ author.first }} {{ author.last }}</strong>
