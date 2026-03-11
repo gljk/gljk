@@ -88,9 +88,8 @@
           </div>
 
           <h2 class="mt-4">BibTeX</h2>
-          <div class="position-relative">
-            <button onclick="navigator.clipboard.writeText(document.getElementById('bibtex-{{ entry.key }}').innerText)" class="btn btn-sm z-depth-0 position-absolute" style="top:0.5rem;right:0.5rem;">Copy</button>
-            <pre id="bibtex-{{ entry.key }}">{{ entry.bibtex | hideCustomBibtex }}</pre>
+          <div class="bibtex">
+            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
         </article>
       </div>
