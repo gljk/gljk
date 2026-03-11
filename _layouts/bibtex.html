@@ -7,24 +7,24 @@
   <head>
   {% include head.html %}
   <!-- Google Scholar / citation meta tags -->
-  <meta name="citation_title" content="{{ entry.title }}">
-  {%- for author in entry.author_array %}
+  <meta name="citation_title" content="{{ page.entry.title }}">
+  {%- for author in page.entry.author_array %}
   <meta name="citation_author" content="{{ author.last }}, {{ author.first }}">
   {%- endfor %}
-  {%- if entry.year %}
-  <meta name="citation_publication_date" content="{{ entry.year }}">
+  {%- if page.entry.year %}
+  <meta name="citation_publication_date" content="{{ page.entry.year }}">
   {%- endif %}
-  {%- if entry.journal %}
-  <meta name="citation_journal_title" content="{{ entry.journal }}">
+  {%- if page.entry.journal %}
+  <meta name="citation_journal_title" content="{{ page.entry.journal }}">
   {%- endif %}
-  {%- if entry.booktitle %}
-  <meta name="citation_conference_title" content="{{ entry.booktitle }}">
+  {%- if page.entry.booktitle %}
+  <meta name="citation_conference_title" content="{{ page.entry.booktitle }}">
   {%- endif %}
-  {%- if entry.doi %}
-  <meta name="citation_doi" content="{{ entry.doi }}">
+  {%- if page.entry.doi %}
+  <meta name="citation_doi" content="{{ page.entry.doi }}">
   {%- endif %}
-  {%- if entry.ft %}
-  <meta name="citation_pdf_url" content="{{ entry.ft | prepend: '/assets/pdf/' | absolute_url }}">
+  {%- if page.entry.ft %}
+  <meta name="citation_pdf_url" content="{{ page.entry.ft | prepend: '/assets/pdf/' | absolute_url }}">
   {%- endif %}
   </head>
 
@@ -38,10 +38,9 @@
     <div class="container mt-5">
       <div class="post">
         <header class="post-header">
-          <h1 class="post-title">{{ entry.title }}</h1>
+          <h1 class="post-title">{{ page.entry.title }}</h1>
           <p class="post-meta">
-            {%- assign author_array_size = entry.author_array | size -%}
-            {%- for author in entry.author_array -%}
+            {%- for author in page.entry.author_array -%}
               {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
               {%- assign author_is_self = false -%}
               {%- if site.scholar.last_name contains author_last_name -%}
@@ -62,35 +61,35 @@
           </p>
           <p class="post-meta">
             {%- assign proceedings = "inproceedings, incollection" | split: ',' -%}
-            {%- if entry.type == "article" -%}
-              <em>{{ entry.journal }}</em>
-            {%- elsif proceedings contains entry.type -%}
-              <em>In {{ entry.booktitle }}</em>
+            {%- if page.entry.type == "article" -%}
+              <em>{{ page.entry.journal }}</em>
+            {%- elsif proceedings contains page.entry.type -%}
+              <em>In {{ page.entry.booktitle }}</em>
             {%- endif %}
-            {%- if entry.month %} {{ entry.month | capitalize }}{%- endif %}
-            {%- if entry.year %} {{ entry.year }}{%- endif %}
+            {%- if page.entry.month %} {{ page.entry.month | capitalize }}{%- endif %}
+            {%- if page.entry.year %} {{ page.entry.year }}{%- endif %}
           </p>
         </header>
 
         <article class="post-content">
-          {%- if entry.abstract %}
+          {%- if page.entry.abstract %}
           <h2>Abstract</h2>
-          <p>{{ entry.abstract }}</p>
+          <p>{{ page.entry.abstract }}</p>
           {%- endif %}
 
           <div class="links mt-3">
-            {%- if entry.ft %}
-            <a href="{{ entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Full Text</a>
+            {%- if page.entry.ft %}
+            <a href="{{ page.entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Full Text</a>
             {%- endif %}
-            {%- if entry.doi %}
-            <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+            {%- if page.entry.doi %}
+            <a href="https://doi.org/{{ page.entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
             {%- endif %}
           </div>
 
-          {%- if entry.bibtex %}
+          {%- if page.entry.bibtex %}
           <h2 class="mt-4">BibTeX</h2>
           <div class="bibtex">
-            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+            {% highlight bibtex %}{{ page.entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
         </article>
