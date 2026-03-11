@@ -87,10 +87,12 @@
             {%- endif %}
           </div>
 
+          {%- if entry.bibtex %}
           <h2 class="mt-4">BibTeX</h2>
           <div class="bibtex">
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
+          {%- endif %}
         </article>
       </div>
     </div>
