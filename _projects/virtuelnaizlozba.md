@@ -27,7 +27,7 @@ Realization of the interactive charts: Marko Galjak
 </div>
 
 <div class="caption">
-Fertility - dr. Mrijana Rašević (left) and Ivana Magdalenić (right).
+Fertility - dr. Mirjana Rašević (left) and Ivana Magdalenić (right).
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/dekomponovanje-ocekivanog-trajanja-zivota-pri-zivorodjenju-prema-starosti-i-uzroku-smrti-srbija-1990-1992-i-2017-2019/">

@@ -28,7 +28,7 @@ All survey data, code, and materials are openly available on [OSF](https://osf.i
 
 I am working on this project in collaboration with [Marina Budić](http://orcid.org/0000-0001-7516-7209), PhD. 
 
-The project is funded by the Open Society Foundations — Western Balkans.
+The project was funded by the Open Society Foundations — Western Balkans.
 
 <div class="publications">
     {% bibliography -f papers -q @*[project=BCMSAI]* %}

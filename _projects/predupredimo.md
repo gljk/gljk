@@ -18,13 +18,13 @@ Results show that Serbia loses over half a million years of potential life per y
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Predupredimo/image2.png" title="Overall Premature Mortalty" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image2.png" title="Overall Premature Mortality" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Predupredimo/image3.png" title="Distribution of pm2.5 pollution" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Predupredimo/image4.png" title="COVID-19 Premature Mortalty" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Predupredimo/image4.png" title="COVID-19 Premature Mortality" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -44,7 +44,7 @@
       year: 2023 - now
       description:
         - Produced  "Demographic Challenges in Serbia" virtual exhibition.
-        - Conducted multiple reserch projects. 
+        - Conducted multiple research projects.
         - Gave an invited talk at <a href="https://dds.org.rs/akademske-novosti/odrzan-prvi-panel-novog-odbora-za-proucavanje-stanovnistva-sanu/">Serbian Academy of Sciences and Arts</a>.
         - Publishes peer-reviewed papers.
 
@@ -89,7 +89,7 @@
         - Labs for Business Statistics.
         - Labs for Computing.
 
-- title: Reserach Grants
+- title: Research Grants
   type: time_table
   contents:
     - title: Predupredimo.rs
@@ -99,8 +99,11 @@
       year: 2022 - 2023
       institution: Open Society Foundation, Serbia (Belgrade, RS)
     - title: Social Sciences Advancement Initiative
-      year: 2024 - now
+      year: 2024 - 2025
       institution: The Ministry of Science, Technological Development and Innovation of the Republic of Serbia through Serbia Accelerating Innovation and Entrepreneurship Project (SAIGE)
+    - title: Trust and Usage of LLMs in the BCMS Language Sphere
+      year: 2024 - 2025
+      institution: Open Society Foundation, Western Balkans
 
 - title: Positions & Memberships
   type: time_table

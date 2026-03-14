@@ -34,7 +34,7 @@ The data suggests a strategic opportunity for policymakers to prioritize renewab
 
 Publications
 
-Our research findings have been detailed in a reaserch paper and policy paper shedding light on the public opinion and policy implications in Serbia's energy sector.
+Our research findings have been detailed in a research paper and policy paper shedding light on the public opinion and policy implications in Serbia's energy sector.
 
 <div class="publications">
     {% bibliography -f papers -q @*[project=NIMBY]* %}
