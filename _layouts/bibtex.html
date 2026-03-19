@@ -5,6 +5,8 @@
 
   <!-- Head -->
   <head>
+  {% if page.entry.ft %}{% assign has_pdf = true %}{% endif %}
+  {% assign entry_abstract = page.entry.abstract %}
   {% include head.html %}
   <!-- Google Scholar / citation meta tags -->
   <meta name="citation_title" content="{{ page.entry.title }}">
@@ -36,6 +38,9 @@
   {%- for kw in keyword_list %}
   <meta name="citation_keywords" content="{{ kw | strip }}">
   {%- endfor %}
+  {%- endif %}
+  {%- if page.entry.ft %}
+  <link rel="alternate" type="application/pdf" href="{{ page.entry.ft | prepend: '/assets/pdf/' | absolute_url }}">
   {%- endif %}
   </head>
 
@@ -90,7 +95,7 @@
 
           <div class="links mt-3">
             {%- if page.entry.ft %}
-            <a href="{{ page.entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Full Text</a>
+            <a href="{{ page.entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Full Text (PDF)</a>
             {%- endif %}
             {%- if page.entry.doi %}
             <a href="https://doi.org/{{ page.entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>

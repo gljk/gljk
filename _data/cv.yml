@@ -105,22 +105,21 @@
       year: 2024 - 2025
       institution: Open Society Foundation, Western Balkans
 
-- title: Positions & Memberships
+- title: Service & Memberships
   type: time_table
   contents:
     - title: Deputy Editor
       institution: Stanovništvo (Journal)
       year: 2023 - now
+    - title: Member of the Ethics Committee
+      institution: Institute of Social Sciences, Belgrade
+      year: 2024 - now
     - title: Member of the Presidium (Secretary)
       institution: The Association of Demographers of Serbia
       year: 2018 - 2024
     - title: Member
       institution: The Association of Demographers of Serbia
       year: 2018 - now
-    - title: Member
-      institution: The European Research Network on Philanthropy (ERNOP)
-      year: 2018 - now
-
 
 - title: Academic Interests
   type: nested_list
@@ -129,6 +128,7 @@
       items: 
         - Mortality
         - Aging
+        - Education
     - title: Public Health
       items:
         - Premature Mortality
@@ -136,9 +136,12 @@
         - COVID-19
     - title: Artificial Intelligence
       items:
-        - Application of AI in social sciences
-        - Application of AI in nonprofit sector
+        - Application of AI in social sciences and nonprofit sector
         - Ethics of AI
+    - title: Education
+      items:
+        - Higher Education
+        - Researcher Training
     - title: Computational Social Science
       items:
         - Social Network Analysis
@@ -152,7 +155,8 @@
   type: list
   contents:
     - Public Policy
-    - Bioethics
+    - Scientometrics
     - Psychometrics
     - Open Science
+    - Bioethics
     - Animal Rights

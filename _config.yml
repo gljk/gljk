@@ -192,6 +192,10 @@ defaults:
       path: "assets/**/*.*"
     values:
       sitemap: false
+  - scope:
+      path: "assets/pdf"
+    values:
+      sitemap: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
