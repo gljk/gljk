@@ -6,7 +6,7 @@ subtitle: Researcher & Data Scientist
 
 profile:
   align: right
-  image: Galjak.png
+  image: Galjak.webp
   image_circular: false # crops the image to make it circular
   address: >
     <p>Institute of Social Sciences/</p>
