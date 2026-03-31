@@ -9,8 +9,7 @@ profile:
   image: Galjak.webp
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Institute of Social Sciences/</p>
-    <p>Catalyst Balkans</p>
+    <p>Institute of Social Sciences</p>
     <p>Belgrade, Serbia</p>
 
 news: true  # includes a list of news items

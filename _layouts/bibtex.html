@@ -20,7 +20,26 @@
   <meta name="citation_journal_title" content="{{ page.entry.journal }}">
   {%- endif %}
   {%- if page.entry.booktitle %}
+    {%- if page.entry.type == "incollection" %}
+  <meta name="citation_book_title" content="{{ page.entry.booktitle }}">
+    {%- else %}
   <meta name="citation_conference_title" content="{{ page.entry.booktitle }}">
+    {%- endif %}
+  {%- endif %}
+  {%- if page.entry.type == "incollection" %}
+    {%- if page.entry.pages %}
+      {%- assign page_parts = page.entry.pages | split: "--" %}
+      {%- if page_parts.size == 2 %}
+  <meta name="citation_firstpage" content="{{ page_parts[0] | strip }}">
+  <meta name="citation_lastpage" content="{{ page_parts[1] | strip }}">
+      {%- endif %}
+    {%- endif %}
+    {%- if page.entry.isbn %}
+  <meta name="citation_isbn" content="{{ page.entry.isbn | split: ' ' | last }}">
+    {%- endif %}
+    {%- if page.entry.publisher %}
+  <meta name="citation_publisher" content="{{ page.entry.publisher }}">
+    {%- endif %}
   {%- endif %}
   {%- if page.entry.doi %}
   <meta name="citation_doi" content="{{ page.entry.doi }}">
@@ -80,7 +99,13 @@
             {%- if page.entry.type == "article" -%}
               <em>{{ page.entry.journal }}</em>
             {%- elsif proceedings contains page.entry.type -%}
-              <em>In {{ page.entry.booktitle }}</em>
+              {%- if page.entry.type == "incollection" -%}
+                <em>In {{ page.entry.booktitle }}</em>
+                {%- if page.entry.pages %}, pp. {{ page.entry.pages | replace: "--", "–" }}{%- endif %}
+                {%- if page.entry.publisher %}, {{ page.entry.publisher }}{%- endif %}
+              {%- else -%}
+                <em>In {{ page.entry.booktitle }}</em>
+              {%- endif %}
             {%- endif %}
             {%- if page.entry.month %} {{ page.entry.month | capitalize }}{%- endif %}
             {%- if page.entry.year %} {{ page.entry.year }}{%- endif %}

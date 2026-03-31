@@ -142,10 +142,6 @@
       items:
         - Higher Education
         - Researcher Training
-    - title: Computational Social Science
-      items:
-        - Social Network Analysis
-        - Factor Analysis
     - title: Philanthropy
       items:
         - Data-driven philanthropy
@@ -154,6 +150,7 @@
 - title: Other Interests
   type: list
   contents:
+    - Computational Social Science
     - Public Policy
     - Scientometrics
     - Psychometrics
