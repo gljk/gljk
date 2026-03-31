@@ -29,6 +29,12 @@
   {%- if page.entry.type == "incollection" %}
     {%- if page.entry.pages %}
       {%- assign page_parts = page.entry.pages | split: "--" %}
+      {%- if page_parts.size != 2 %}
+        {%- assign page_parts = page.entry.pages | split: "–" %}
+      {%- endif %}
+      {%- if page_parts.size != 2 %}
+        {%- assign page_parts = page.entry.pages | split: "-" %}
+      {%- endif %}
       {%- if page_parts.size == 2 %}
   <meta name="citation_firstpage" content="{{ page_parts[0] | strip }}">
   <meta name="citation_lastpage" content="{{ page_parts[1] | strip }}">
@@ -95,7 +101,7 @@
             {%- endfor %}
           </p>
           <p class="post-meta">
-            {%- assign proceedings = "inproceedings, incollection" | split: ',' -%}
+            {%- assign proceedings = "inproceedings,incollection" | split: ',' -%}
             {%- if page.entry.type == "article" -%}
               <em>{{ page.entry.journal }}</em>
             {%- elsif proceedings contains page.entry.type -%}
