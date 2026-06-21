@@ -77,7 +77,7 @@ Mortality - dr. Ankica Šobot (left) and Ivana Poljak (right).
 Population projection - dr. Vladimir Nikitović.
 </div>
 
-An interactive version of the premature mortality in Serbia available at <a href="predupredimo.rs" target="_blank">predupredimo.rs</a> (in Serbian language).
+An interactive version of the premature mortality in Serbia is available at <a href="predupredimo.rs" target="_blank">predupredimo.rs</a> (in Serbian language).
 
 <div style="position: relative;">
 <iframe style= "    position: absolute;

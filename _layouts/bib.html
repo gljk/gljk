@@ -28,7 +28,12 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title"><a href="{{ entry.url | relative_url }}">{{entry.title}}</a></div>
+          {%- if entry.ft %}
+            {%- assign title_url = entry.ft | prepend: '/assets/pdf/' | relative_url -%}
+          {%- else %}
+            {%- assign title_url = entry.url | relative_url -%}
+          {%- endif %}
+          <div class="title"><a href="{{ title_url }}"{% if entry.ft %} target="_blank"{% endif %}>{{entry.title}}</a></div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}

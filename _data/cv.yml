@@ -11,25 +11,25 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD of Demography
+    - title: PhD in Demography
       institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2022
       description:
         - Premature Mortality in Serbia
       
-    - title: MSc of Social Sciences and Computing
+    - title: MSc in Social Sciences and Computing
       institution:  The University of Belgrade, Serbia
       year: 2017
       description:
         - Application of the R Programming Language in Computer Analysis of Social Networks - Example of the 2016 Serbian Elections
 
-    - title: MSc of Demography
+    - title: MSc in Demography
       institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2014
       description:
         - Mortality in Serbia and the European Union - A Comparative Analysis
 
-    - title: BS of Demography
+    - title: BS in Demography
       institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2011
       description:
@@ -39,9 +39,17 @@
 - title: Work
   type: time_table
   contents:
-    - title: Research Fellow
+  
+    - title: Senior Research Associate
       institution: Institute of Social Sciences, Belgrade
-      year: 2023 - now
+      year: 2026 - now
+      description:
+        - Conducts research on demographic and social issues.
+        - Publishes peer-reviewed papers.  
+
+    - title: Research Associate
+      institution: Institute of Social Sciences, Belgrade
+      year: 2023 - 2026
       description:
         - Produced  "Demographic Challenges in Serbia" virtual exhibition.
         - Conducted multiple research projects.
@@ -52,22 +60,22 @@
       institution: Catalyst Balkans, Belgrade
       year: 2022 - 2025
       description:
-        - Designs and implements technology strategies that align with the organization's goals.
-        - Directs the development and implementation of IT products and services.
+        - Designed and implemented technology strategies that align with the organization's goals.
+        - Directed the development and implementation of IT products and services.
 
     - title: Chief Data Scientist
       institution: Catalyst Balkans, Belgrade
       year: 2018 - 2022
       description:
         - Member of the senior management in charge of strategic decisions.
-        - Directs two teams in the development and implementation of IT products and services.
+        - Directed two teams in the development and implementation of IT products and services.
         
     - title: Research Assistant
       institution: Institute of Social Sciences, Belgrade
       year: 2018 - 2022
       description:
         - Published ten peer-reviewed papers.
-        - Completed PhD thesis.
+        - Defended his PhD thesis.
 
     - title: CiviCRM Product Owner
       institution: Catalyst Balkans, Belgrade
