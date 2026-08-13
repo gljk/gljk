@@ -25,6 +25,18 @@ table {
   }
 }
 
+// Keep long news lists compact on larger screens, but avoid a cramped nested
+// scroller on phones where a viewport-width height becomes too small.
+.news .news-scrollable {
+  max-height: 20vw;
+}
+
+@media (max-width: 575.98px) {
+  .news .news-scrollable {
+    max-height: none;
+  }
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   font-weight: 400;
@@ -496,11 +508,32 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
-      .preview {
-        width: 100%;
-        min-width: 80px;
-        max-width: 200px;
+      margin-bottom: 1.5rem;
+      .publication-preview {
+        padding-top: 0.15rem;
+
+        .publication-preview-link {
+          display: block;
+          max-width: 200px;
+          border-bottom: 0;
+        }
+
+        .publication-thumbnail {
+          display: block;
+          width: 100%;
+          min-width: 80px;
+          height: auto;
+          aspect-ratio: 4 / 3;
+          object-fit: contain;
+          background: #fff;
+          border: 1px solid var(--global-divider-color);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .publication-preview-link:hover .publication-thumbnail,
+        .publication-preview-link:focus .publication-thumbnail {
+          transform: translateY(-2px);
+        }
       }
       .abbr {
         height: 2rem;

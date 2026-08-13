@@ -21,4 +21,4 @@ Marko holds a PhD in Demography, complemented by Master’s degrees in both Demo
 
 He currently serves as a researcher at the Demographic Research Center, part of the Institute of Social Sciences in Belgrade.
 
-Beyond his academic work, Marko is also a dedicated activist and has been an active member of civil society since his high school years. In his non-profit career, he has led a variety of projects in AI, research, and digital transformation. These initiatives strengthened the capacity of CSOs by harnessing IT, data science, and philanthropy intelligence
+Beyond his academic work, Marko is also a dedicated activist and has been an active member of civil society since his high school years. In his non-profit career, he has led a variety of projects in AI, research, and digital transformation. These initiatives strengthened the capacity of CSOs by harnessing IT, data science, and philanthropy intelligence.
