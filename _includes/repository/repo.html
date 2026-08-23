@@ -1,14 +1,18 @@
 {% assign repo_url =  include.repository | split: '/' %}
 
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
-
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.repository }}">
-    <img class="repo-img-light w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}">
-    <img class="repo-img-dark w-100" alt="{{ include.repository }}" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}">
+<div class="repo">
+  <a class="repo-card" href="https://github.com/{{ include.repository }}" aria-label="View {{ include.repository }} on GitHub">
+    <span class="repo-card__header">
+      <span class="repo-card__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24">
+          <path d="M3.75 5.75a2 2 0 0 1 2-2h4l2 2h6.5a2 2 0 0 1 2 2v10.5a2 2 0 0 1-2 2H5.75a2 2 0 0 1-2-2V5.75Z" />
+        </svg>
+      </span>
+      <span class="repo-card__title-group">
+        <span class="repo-card__title">{{ repo_url.last }}</span>
+        <span class="repo-card__owner">{{ repo_url.first }}</span>
+      </span>
+    </span>
+    <span class="repo-card__action">View repository <span aria-hidden="true">&nearr;</span></span>
   </a>
 </div>
