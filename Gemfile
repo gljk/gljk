@@ -11,7 +11,6 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
-    gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'listen'
     gem 'mini_racer'

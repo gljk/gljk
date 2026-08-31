@@ -1,6 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
+# Venue badges on the publications page, keyed by the `abbr` field in
+# _bibliography/papers.bib. Only used for entries with no `preview` image,
+# since a preview thumbnail takes priority over the badge.
+#
+# Example:
+#
+# "PRPR":
+#   url: https://link.springer.com/journal/11113
+#   color: "#00369f"

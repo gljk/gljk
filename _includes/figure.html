@@ -1,31 +1,49 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
+{%- comment -%}
+  alt falls back to title so figures are never unlabelled for screen readers
+  and image search. Pass alt= explicitly when it should differ from title.
+{%- endcomment -%}
+{%- assign img_alt = include.alt | default: include.title -%}
 
 <figure>
 
   <picture>
     {% if site.imagemagick.enabled %}
     {% for i in site.imagemagick.widths -%}
-      <source 
+      <source
         class="responsive-img-srcset"
-        media="(max-width: {{ i }}px)" 
+        media="(max-width: {{ i }}px)"
         srcset="{{ img_path | relative_url }}-{{ i }}.webp"
       />
     {% endfor -%}
+    {%- comment -%}
+      Unconstrained WebP for anything wider than the largest breakpoint.
+      Without it, wide viewports skip every media-gated <source> and fall all
+      the way back to the original — which for the project cards means
+      multi-megabyte PNGs.
+    {%- endcomment -%}
+    <source
+      class="responsive-img-srcset"
+      type="image/webp"
+      srcset="{{ img_path | relative_url }}-{{ site.imagemagick.widths | last }}.webp"
+    />
     {% endif %}
 
     <!-- Fallback to the original file -->
-    <img 
+    <img
       src="{{ include.path | relative_url }}"
-      {% if include.class %}class="{{ include.class }}"{% endif %}  
-      {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
-      {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %} 
-      {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %} 
-      {% if include.min-height %}min-height="{{ include.min-height }}"{% endif %} 
-      {% if include.max-width %}max-width="{{ include.max-width }}"{% endif %} 
-      {% if include.max-height %}height="{{ include.max-height }}"{% endif %} 
-      {% if include.alt %}alt="{{ include.alt }}"{% endif %} 
-      {% if include.title %}title="{{ include.title }}"{% endif %} 
+      {% if include.class %}class="{{ include.class }}"{% endif %}
+      {% if include.width %}width="{{ include.width }}"{% endif %}
+      {% if include.height %}height="{{ include.height }}"{% endif %}
+      {% if include.min-width %}min-width="{{ include.min-width }}"{% endif %}
+      {% if include.min-height %}min-height="{{ include.min-height }}"{% endif %}
+      {% if include.max-width %}max-width="{{ include.max-width }}"{% endif %}
+      {% if include.max-height %}height="{{ include.max-height }}"{% endif %}
+      {% if img_alt %}alt="{{ img_alt | strip_html | escape }}"{% endif %}
+      {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
+      loading="{% if include.eager %}eager{% else %}lazy{% endif %}"
+      decoding="async"
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     />
 
