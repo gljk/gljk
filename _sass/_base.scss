@@ -776,26 +776,8 @@ footer.sticky-bottom {
           transform: translateY(-2px);
         }
       }
-      .publication-aside {
-        .open-science-badges {
-          max-width: 200px;
-          justify-content: center;
-          gap: 0.25rem;
-          margin: 0.5rem 0 0;
-
-          .open-science-badge {
-            flex: 0 1 42px;
-            min-width: 0;
-            max-width: 42px;
-          }
-
-          img {
-            width: 100%;
-          }
-        }
-      }
       .abbr {
-        min-height: 2rem;
+        height: 2rem;
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
@@ -839,7 +821,28 @@ footer.sticky-bottom {
           }
         }
       }
+      .publication-actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem 0.75rem;
+        margin-top: 0.55rem;
+
+        .open-science-badges {
+          gap: 0.2rem;
+          margin: 0;
+
+          img {
+            width: 34px;
+          }
+        }
+      }
       .links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);

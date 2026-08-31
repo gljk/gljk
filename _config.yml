@@ -247,7 +247,8 @@ scholar:
 
   details_dir: bibliography
   details_layout: bibtex.html
-  details_link: Details
+  # The link is rendered inside the bibliography template's action row.
+  details_link: false
 
   query: "@*"
 

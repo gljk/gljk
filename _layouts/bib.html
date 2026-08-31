@@ -8,7 +8,7 @@
         {%- assign publication_url = entry.url | relative_url -%}
       {%- endif -%}
       <div class="row">
-        <div class="col-sm-2 publication-aside {% if entry.preview %}publication-preview{% else %}abbr{% endif %}">
+        <div class="col-sm-2 {% if entry.preview %}publication-preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}
           {%- if publication_url -%}
           <a class="publication-preview-link" href="{{ publication_url }}" aria-label="Open {{ entry.title | strip_html | escape }}"{% if entry.ft %} target="_blank" rel="noopener noreferrer"{% endif %}>
@@ -32,8 +32,6 @@
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
         {%- endif -%}
-
-          {% include open_science_badges.html entry=entry %}
         </div>
 
         <!-- Entry bib key -->
@@ -146,8 +144,9 @@
           </div>
         {%- endif %}
 
-          <!-- Links/Buttons -->
-          <div class="links">
+          <!-- Links/Buttons and open science badges -->
+          <div class="publication-actions">
+            <div class="links">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}
@@ -183,9 +182,6 @@
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
-          {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
-          {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
             <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
@@ -203,6 +199,12 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if details %}
+            <a href="{{ details }}" class="btn btn-sm z-depth-0" role="button">Details</a>
+          {%- endif %}
+            </div>
+
+            {% include open_science_badges.html entry=entry %}
           </div>
 
           {% if entry.abstract -%}

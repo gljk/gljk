@@ -1,5 +1,5 @@
 {%- assign open_science_entry = include.entry -%}
-{%- if open_science_entry.data or open_science_entry.materials or open_science_entry.preregistered -%}
+{%- if open_science_entry.data or open_science_entry.code or open_science_entry.materials or open_science_entry.preregistered -%}
 <div class="open-science-badges" aria-label="Open science resources">
   {%- if open_science_entry.data -%}
   <a
@@ -11,6 +11,18 @@
     rel="noopener noreferrer"
   >
     <img src="{{ '/assets/img/open-science/open-data.svg' | relative_url }}" alt="Open Data" width="55" height="54" loading="lazy">
+  </a>
+  {%- endif -%}
+  {%- if open_science_entry.code -%}
+  <a
+    class="open-science-badge"
+    href="{{ open_science_entry.code | escape }}"
+    aria-label="Open analytic code: view the public code repository"
+    title="Open Code — view public repository"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="{{ '/assets/img/open-science/open-code.svg' | relative_url }}" alt="Open Code" width="55" height="54" loading="lazy">
   </a>
   {%- endif -%}
   {%- if open_science_entry.materials -%}

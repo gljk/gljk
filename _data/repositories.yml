@@ -17,7 +17,7 @@ github_repos:
   - gljk/VI-CDI-MR
 
 # Publication-linked repositories and supplements. Keep these URLs aligned
-# with the data/materials fields in _bibliography/papers.bib.
+# with the data/code/materials fields in _bibliography/papers.bib.
 publication_repositories:
   - key: galjak_centralization_2026
     title: "Centralization of Local Philanthropy: A Social Network Analysis of Donor–Beneficiary Ties in Serbia and Bosnia and Herzegovina"
@@ -25,27 +25,28 @@ publication_repositories:
     provider: OSF
     url: https://osf.io/2g798/
     data: https://osf.io/2g798/
-    materials: https://osf.io/2g798/
+    code: https://osf.io/2g798/
   - key: galjak_trust_2026
     title: "Trust Over Creepiness: AI Chatbot Perceptions in Balkan Countries"
     year: 2026
     provider: OSF
     url: https://osf.io/utgs8/
     data: https://osf.io/utgs8/
-    materials: https://osf.io/utgs8/
+    code: https://osf.io/utgs8/
   - key: galjak_generational_2026
     title: "Generational Divide in AI Adoption for Academic Writing: Evidence From Serbian Social Scientists"
     year: 2025
     provider: OSF
     url: https://osf.io/w3dkx/
     data: https://osf.io/w3dkx/
-    materials: https://osf.io/w3dkx/
+    code: https://osf.io/w3dkx/
   - key: galjak_public_2024
     title: "Public perceptions of fossil and alternative energy in Serbia: Between NIMBYism and nationalism"
     year: 2024
     provider: OSF
     url: https://osf.io/wmhqt/
     data: https://osf.io/wmhqt/
+    code: https://osf.io/wmhqt/
     materials: https://osf.io/wmhqt/
   - key: marinkovic_timing_2024
     title: "Timing and Toll: Europe's Excess Mortality in the First Three Years of COVID-19"
@@ -53,34 +54,33 @@ publication_repositories:
     provider: OSF
     url: https://osf.io/mc428/
     data: https://osf.io/mc428/
-    materials: https://osf.io/mc428/
+    code: https://osf.io/mc428/
   - key: galjak_assessing_2023
     title: "Assessing premature mortality in Serbia: Insights from the Median Age of Years of Life Lost"
     year: 2023
     provider: OSF
     url: https://osf.io/gx7e3/
     data: https://osf.io/gx7e3/
-    materials: https://osf.io/gx7e3/
+    code: https://osf.io/gx7e3/
   - key: galjak_discrepancies_2023
     title: "Discrepancies Between Preliminary and Final COVID-19 Mortality Data – the Case of Serbia"
     year: 2023
     provider: OSF
     url: https://osf.io/769me/
     data: https://osf.io/769me/
-    materials: https://osf.io/769me/
   - key: marinkovic_assessing_nodate
     title: "Assessing the availability and quality of COVID-19 mortality data in Europe: a comparative analysis"
     year: 2023
     provider: Oxford Academic
     url: https://academic.oup.com/eurpub/article/33/5/944/7188269#supplementary-data
     data: https://academic.oup.com/eurpub/article/33/5/944/7188269#supplementary-data
-    materials: https://academic.oup.com/eurpub/article/33/5/944/7188269#supplementary-data
   - key: budic_what_2021
     title: "What drives public attitudes towards moral bioenhancement and why it matters: an exploratory study"
     year: 2021
     provider: Figshare and Springer Nature
     url: https://doi.org/10.6084/m9.figshare.14502297.v1
     data: https://doi.org/10.6084/m9.figshare.14502297.v1
+    code: https://link.springer.com/article/10.1186/s12910-021-00732-1
     materials: https://link.springer.com/article/10.1186/s12910-021-00732-1
   - key: hoolwerf_philanthropy_2020
     title: "Philanthropy in the Western Balkans: A Network Analysis Report on Giving in the Region"
@@ -88,4 +88,4 @@ publication_repositories:
     provider: OSF
     url: https://osf.io/sa72d/
     data: https://osf.io/sa72d/
-    materials: https://osf.io/sa72d/
+    code: https://osf.io/sa72d/
