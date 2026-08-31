@@ -1,0 +1,41 @@
+{%- assign open_science_entry = include.entry -%}
+{%- if open_science_entry.data or open_science_entry.materials or open_science_entry.preregistered -%}
+<div class="open-science-badges" aria-label="Open science resources">
+  {%- if open_science_entry.data -%}
+  <a
+    class="open-science-badge"
+    href="{{ open_science_entry.data | escape }}"
+    aria-label="Open data: view the public data repository"
+    title="Open Data — view public repository"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="{{ '/assets/img/open-science/open-data.svg' | relative_url }}" alt="Open Data" width="55" height="54" loading="lazy">
+  </a>
+  {%- endif -%}
+  {%- if open_science_entry.materials -%}
+  <a
+    class="open-science-badge"
+    href="{{ open_science_entry.materials | escape }}"
+    aria-label="Open materials: view the public materials repository"
+    title="Open Materials — view public repository"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="{{ '/assets/img/open-science/open-materials.svg' | relative_url }}" alt="Open Materials" width="55" height="54" loading="lazy">
+  </a>
+  {%- endif -%}
+  {%- if open_science_entry.preregistered -%}
+  <a
+    class="open-science-badge"
+    href="{{ open_science_entry.preregistered | escape }}"
+    aria-label="Preregistered: view the public preregistration"
+    title="Preregistered — view public registration"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src="{{ '/assets/img/open-science/preregistered.svg' | relative_url }}" alt="Preregistered" width="55" height="54" loading="lazy">
+  </a>
+  {%- endif -%}
+</div>
+{%- endif -%}

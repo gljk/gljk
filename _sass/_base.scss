@@ -415,6 +415,77 @@ footer.sticky-bottom {
   margin: 1rem 0 2.5rem;
 }
 
+.publication-repositories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.5rem;
+}
+
+.publication-repo-card {
+  display: flex;
+  min-width: 0;
+  min-height: 12rem;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+}
+
+.publication-repo-card__meta {
+  margin: 0 0 0.4rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.publication-repo-card__title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+
+  a {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.open-science-badges {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.5rem 0 0.6rem;
+}
+
+.open-science-badge {
+  display: inline-flex;
+  border-bottom: 0;
+  border-radius: 0.25rem;
+  transition: filter 0.15s ease, transform 0.15s ease;
+
+  img {
+    display: block;
+    width: 55px;
+    height: auto;
+  }
+
+  &:hover {
+    filter: brightness(1.08);
+    transform: translateY(-1px);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+}
+
 .repo {
   min-width: 0;
 }
@@ -496,7 +567,8 @@ footer.sticky-bottom {
 }
 
 @media (max-width: 575.98px) {
-  .repositories {
+  .repositories,
+  .publication-repositories {
     grid-template-columns: 1fr;
   }
 

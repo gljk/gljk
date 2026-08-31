@@ -124,6 +124,8 @@
           <p>{{ page.entry.abstract }}</p>
           {%- endif %}
 
+          {% include open_science_badges.html entry=page.entry %}
+
           <div class="links mt-3">
             {%- if page.entry.ft %}
             <a href="{{ page.entry.ft | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Full Text (PDF)</a>

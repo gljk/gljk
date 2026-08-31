@@ -15,7 +15,19 @@ nav_order: 3
 </div>
 {% endif %}
 
-## Selected repositories
+## Publication repositories
+
+Data, analysis code, study materials, and journal supplements explicitly linked from the publications. Each badge opens the corresponding public artifact.
+
+{% if site.data.repositories.publication_repositories %}
+<div class="publication-repositories">
+  {% for repository in site.data.repositories.publication_repositories %}
+    {% include repository/publication_repo.html repository=repository %}
+  {% endfor %}
+</div>
+{% endif %}
+
+## Selected GitHub repositories
 
 A selection of research code, data visualizations, and web projects.
 
