@@ -33,6 +33,7 @@ publication_repositories:
     url: https://osf.io/utgs8/
     data: https://osf.io/utgs8/
     code: https://osf.io/utgs8/
+    materials: https://osf.io/utgs8/
   - key: galjak_generational_2026
     title: "Generational Divide in AI Adoption for Academic Writing: Evidence From Serbian Social Scientists"
     year: 2025
@@ -40,6 +41,7 @@ publication_repositories:
     url: https://osf.io/w3dkx/
     data: https://osf.io/w3dkx/
     code: https://osf.io/w3dkx/
+    materials: https://osf.io/w3dkx/
   - key: galjak_public_2024
     title: "Public perceptions of fossil and alternative energy in Serbia: Between NIMBYism and nationalism"
     year: 2024
@@ -68,6 +70,8 @@ publication_repositories:
     provider: OSF
     url: https://osf.io/769me/
     data: https://osf.io/769me/
+    code: https://osf.io/769me/
+    materials: https://osf.io/769me/
   - key: marinkovic_assessing_nodate
     title: "Assessing the availability and quality of COVID-19 mortality data in Europe: a comparative analysis"
     year: 2023
@@ -89,3 +93,10 @@ publication_repositories:
     url: https://osf.io/sa72d/
     data: https://osf.io/sa72d/
     code: https://osf.io/sa72d/
+  - key: galjak_east-west_2018
+    title: "East-west demographic divide in the EU: A regional overview"
+    year: 2018
+    provider: OSF
+    url: https://osf.io/5ubf2/
+    data: https://osf.io/5ubf2/
+    code: https://osf.io/5ubf2/
