@@ -57,6 +57,13 @@ publication_repositories:
     url: https://osf.io/mc428/
     data: https://osf.io/mc428/
     code: https://osf.io/mc428/
+  - key: zafeiris_serbia_2024
+    title: "Serbia: Policy Response to Demographic Challenges"
+    year: 2024
+    provider: OSF
+    url: https://osf.io/v63kd/
+    data: https://osf.io/v63kd/
+    code: https://osf.io/v63kd/
   - key: galjak_assessing_2023
     title: "Assessing premature mortality in Serbia: Insights from the Median Age of Years of Life Lost"
     year: 2023
@@ -78,6 +85,20 @@ publication_repositories:
     provider: Oxford Academic
     url: https://academic.oup.com/eurpub/article/33/5/944/7188269#supplementary-data
     data: https://academic.oup.com/eurpub/article/33/5/944/7188269#supplementary-data
+  - key: rasevic_demographic_2022
+    title: "Demographic Challenges in Serbia"
+    year: 2022
+    provider: OSF
+    url: https://osf.io/hcf7k/
+    data: https://osf.io/hcf7k/
+    code: https://osf.io/hcf7k/
+  - key: galjak_premature_2022
+    title: "Premature mortality in Serbia: The effects of air pollution and the COVID-19 pandemic"
+    year: 2022
+    provider: OSF
+    url: https://osf.io/dhz7w/
+    data: https://osf.io/dhz7w/
+    code: https://osf.io/dhz7w/
   - key: budic_what_2021
     title: "What drives public attitudes towards moral bioenhancement and why it matters: an exploratory study"
     year: 2021
@@ -86,6 +107,13 @@ publication_repositories:
     data: https://doi.org/10.6084/m9.figshare.14502297.v1
     code: https://link.springer.com/article/10.1186/s12910-021-00732-1
     materials: https://link.springer.com/article/10.1186/s12910-021-00732-1
+  - key: galjak_effects_2021
+    title: "The Effects of COVID-19 Pandemic on the Premature Mortality in Serbia in 2020"
+    year: 2021
+    provider: OSF
+    url: https://osf.io/cnw3d/
+    data: https://osf.io/cnw3d/
+    code: https://osf.io/cnw3d/
   - key: hoolwerf_philanthropy_2020
     title: "Philanthropy in the Western Balkans: A Network Analysis Report on Giving in the Region"
     year: 2020
@@ -100,3 +128,24 @@ publication_repositories:
     url: https://osf.io/5ubf2/
     data: https://osf.io/5ubf2/
     code: https://osf.io/5ubf2/
+  - key: galjak_fight_2018
+    title: "Fight against the early mortality in Serbia: Finland as an example of good practice"
+    year: 2018
+    provider: OSF
+    url: https://osf.io/54hsw/
+    data: https://osf.io/54hsw/
+    code: https://osf.io/54hsw/
+  - key: magdalenic_ageing_2016
+    title: "Ageing map of the Balkan Peninsula"
+    year: 2016
+    provider: OSF
+    url: https://osf.io/nafzw/
+    data: https://osf.io/nafzw/
+    code: https://osf.io/nafzw/
+  - key: galjak_amenable_2014
+    title: "Amenable Mortality in Serbia and European Union – Comparative Analysis"
+    year: 2014
+    provider: OSF
+    url: https://osf.io/wr72y/
+    data: https://osf.io/wr72y/
+    code: https://osf.io/wr72y/
