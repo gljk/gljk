@@ -114,6 +114,13 @@ publication_repositories:
     url: https://osf.io/cnw3d/
     data: https://osf.io/cnw3d/
     code: https://osf.io/cnw3d/
+  - key: marinkovic_excess_2021
+    title: "Excess mortality in Europe and Serbia during the COVID-19 pandemic in 2020"
+    year: 2021
+    provider: OSF
+    url: https://osf.io/82qy3/
+    data: https://osf.io/82qy3/
+    code: https://osf.io/82qy3/
   - key: hoolwerf_philanthropy_2020
     title: "Philanthropy in the Western Balkans: A Network Analysis Report on Giving in the Region"
     year: 2020
@@ -142,6 +149,13 @@ publication_repositories:
     url: https://osf.io/nafzw/
     data: https://osf.io/nafzw/
     code: https://osf.io/nafzw/
+  - key: Galjak2016
+    title: "Mortality Characteristics of the Population of Southeastern Serbia"
+    year: 2016
+    provider: OSF
+    url: https://osf.io/2mjc4/
+    data: https://osf.io/2mjc4/
+    code: https://osf.io/2mjc4/
   - key: galjak_amenable_2014
     title: "Amenable Mortality in Serbia and European Union – Comparative Analysis"
     year: 2014
