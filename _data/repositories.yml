@@ -92,6 +92,13 @@ publication_repositories:
     url: https://osf.io/hcf7k/
     data: https://osf.io/hcf7k/
     code: https://osf.io/hcf7k/
+  - key: galjak_premature_mortality_dissertation_2022
+    title: "Premature Mortality in Serbia"
+    year: 2022
+    provider: OSF
+    url: https://osf.io/awzbx/
+    data: https://osf.io/awzbx/
+    code: https://osf.io/awzbx/
   - key: galjak_premature_2022
     title: "Premature mortality in Serbia: The effects of air pollution and the COVID-19 pandemic"
     year: 2022
@@ -142,6 +149,14 @@ publication_repositories:
     url: https://osf.io/54hsw/
     data: https://osf.io/54hsw/
     code: https://osf.io/54hsw/
+  - key: galjak_social_networks_2017
+    title: "Application of the R Programming Language in Computer Analysis of Social Networks: The 2016 Serbian Elections"
+    year: 2017
+    provider: GitHub
+    url: https://github.com/gljk/Master-rad
+    data: https://github.com/gljk/Master-rad
+    code: https://github.com/gljk/Master-rad
+    materials: https://github.com/gljk/Master-rad
   - key: magdalenic_ageing_2016
     title: "Ageing map of the Balkan Peninsula"
     year: 2016
@@ -163,3 +178,10 @@ publication_repositories:
     url: https://osf.io/wr72y/
     data: https://osf.io/wr72y/
     code: https://osf.io/wr72y/
+  - key: galjak_mortality_serbia_eu_2014
+    title: "Mortality in Serbia and the European Union: A Comparative Analysis"
+    year: 2014
+    provider: OSF
+    url: https://osf.io/b2uh9/
+    data: https://osf.io/b2uh9/
+    code: https://osf.io/b2uh9/

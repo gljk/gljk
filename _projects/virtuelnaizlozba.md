@@ -15,12 +15,12 @@ Realization of the interactive charts: Marko Galjak
 
 <div class="row">
     <div class="col-sm mt-0 mt-md-0">
-    <a href="https://idn.org.rs/demografski-izazovi-srbije/prosecan-broj-zivorodjene-dece-generacija-zena-rodjenih-u-razdoblju-1930-1975-srbija-popis-2011/">
+    <a href="https://idn.org.rs/virtuelna-izlozba/prosecan-broj-zivorodjene-dece-genera/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/1-MR.png" title="Mirjana Rašević" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
     <div class="col-sm mt-0 mt-md-0">
-        <a href="https://idn.org.rs/dekomponovanje-ocekivanog-trajanja-zivota-pri-zivorodjenju-prema-starosti-i-uzroku-smrti-srbija-1990-1992-i-2017-2019/">
+        <a href="https://idn.org.rs/virtuelna-izlozba/indeks-ljudskog-razvoja-i-stopa-ukupno/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/2-IM.png" title="Ivana Magdalenić" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
@@ -30,12 +30,12 @@ Realization of the interactive charts: Marko Galjak
 Fertility - dr. Mirjana Rašević (left) and Ivana Magdalenić (right).
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/dekomponovanje-ocekivanog-trajanja-zivota-pri-zivorodjenju-prema-starosti-i-uzroku-smrti-srbija-1990-1992-i-2017-2019/">
+    <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/virtuelna-izlozba/dekomponovanje-ocekivanog-trajanja-zi/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/3-IM.png" title="Ivan Marinković" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
         <div class="col-sm mt-3 mt-md-0">
-        <a href="https://idn.org.rs/demografski-izazovi-srbije/prevremeni-mortalitet-u-srbiji-2017-2019/">
+        <a href="https://idn.org.rs/virtuelna-izlozba/prevremeni-mortalitet-u-srbiji-2017-2019/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/4-MG.png" title="Marko Galjak" class="img-fluid rounded z-depth-1" %}</a>
     </div>
 </div>
@@ -43,11 +43,11 @@ Fertility - dr. Mirjana Rašević (left) and Ivana Magdalenić (right).
 Mortality - dr. Ivan Marinković (left) and dr. Marko Galjak (right).
 </div>
 <div class="row">
-        <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/demografski-izazovi-srbije/udeo-doseljenog-stanovnistva-u-ukupnom-stanovnistvu-administrativnih-oblasti-srbije-popisi-1991-2011/">
+        <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/virtuelna-izlozba/udeo-doseljenog-stanovnistva-u-ukupno/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/5-VL.png" title="Vesna Lukić and Goran Penev" class="img-fluid rounded z-depth-1" %}
    </a> </div>
         <div class="col-sm mt-3 mt-md-0">
-        <a href="https://idn.org.rs/demografski-izazovi-srbije/gradjani-srbije-na-radu-boravku-u-inostranstvu-po-zemljama-prijema-popisi-1991-2011/">
+        <a href="https://idn.org.rs/virtuelna-izlozba/gradjani-srbije-na-radu-boravku-u-inost/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/6-JPD.png" title="Jelena Predojević Despić and Goran Penev" class="img-fluid rounded z-depth-1" %}
         </a>
     </div>
@@ -56,11 +56,11 @@ Mortality - dr. Ivan Marinković (left) and dr. Marko Galjak (right).
 Mortality - dr. Vesna Lukić and dr. Goran Penev (left), dr. Jelena Predojević-Despić and dr. Goran Penev (right).
 </div>
 <div class="row">
-        <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/demografski-izazovi-srbije/promene-obrazovne-strukture-stanovnistva-u-srbiji-prema-polu-i-tipu-naselja-popisi-1991-2011/">
+        <div class="col-sm mt-3 mt-md-0"><a href="https://idn.org.rs/virtuelna-izlozba/promene-obrazovne-strukture-stanovn/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/7-AS.png" title="Ankica Šobot" class="img-fluid rounded z-depth-1" %}</a>
     </div>
         <div class="col-sm mt-3 mt-md-0">
-        <a href="https://idn.org.rs/demografski-izazovi-srbije/razlike-u-stopi-rizika-od-siromastva-po-polu-srbija-i-evropska-unija-2013-2020/">
+        <a href="https://idn.org.rs/virtuelna-izlozba/razlike-u-stopi-rizika-od-siromastva-p/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/8-IP.png" title="Ivana Poljak" class="img-fluid rounded z-depth-1" %}</a>
         </div>
     </div>
@@ -69,7 +69,7 @@ Mortality - dr. Ankica Šobot (left) and Ivana Poljak (right).
 </div>
 <div class="row">
         <div class="col-sm mt-3 mt-md-0">
-        <a href="https://idn.org.rs/demografski-izazovi-srbije/prognoza-smanjenja-broja-stanovnika-po-administrativnim-oblastima-srbije-osnovni-scenario-2020-2050/">
+        <a href="https://idn.org.rs/virtuelna-izlozba/prognoza-smanjenja-broja-stanovnika-po/">
         {% include figure.html path="assets/img/VI-CDI-Thumbnails/9-VN.png" title="Vladimir Nikitović" class="img-fluid rounded z-depth-1" %}</a>
         </div>
 </div>
@@ -77,7 +77,7 @@ Mortality - dr. Ankica Šobot (left) and Ivana Poljak (right).
 Population projection - dr. Vladimir Nikitović.
 </div>
 
-An interactive version of the premature mortality in Serbia is available at <a href="predupredimo.rs" target="_blank">predupredimo.rs</a> (in Serbian language).
+An interactive version of the premature mortality in Serbia is available at <a href="https://predupredimo.rs" target="_blank">predupredimo.rs</a> (in Serbian language).
 
 <div style="position: relative;">
 <iframe style= "    position: absolute;

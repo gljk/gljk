@@ -26,6 +26,9 @@
   <meta name="citation_conference_title" content="{{ page.entry.booktitle }}">
     {%- endif %}
   {%- endif %}
+  {%- if page.entry.school %}
+  <meta name="citation_dissertation_institution" content="{{ page.entry.school }}">
+  {%- endif %}
   {%- if page.entry.type == "incollection" %}
     {%- if page.entry.pages %}
       {%- assign page_parts = page.entry.pages | split: "--" %}
@@ -56,7 +59,7 @@
   {%- if page.entry.abstract %}
   <meta name="citation_abstract" content="{{ page.entry.abstract }}">
   {%- endif %}
-  <meta name="citation_language" content="en">
+  <meta name="citation_language" content="{{ page.entry.language | default: site.lang }}">
   <meta name="citation_fulltext_html_url" content="{{ page.url | absolute_url }}">
   {%- if page.entry.keywords %}
   {%- assign keyword_list = page.entry.keywords | split: "," %}
@@ -112,6 +115,15 @@
               {%- else -%}
                 <em>In {{ page.entry.booktitle }}</em>
               {%- endif %}
+            {%- elsif page.entry.type == "phdthesis" -%}
+              <em>Doctoral dissertation</em>
+              {%- if page.entry.school %}, {{ page.entry.school }}{%- endif %}
+            {%- elsif page.entry.type == "mastersthesis" -%}
+              <em>Master's thesis</em>
+              {%- if page.entry.school %}, {{ page.entry.school }}{%- endif %}
+            {%- elsif page.entry.type == "thesis" -%}
+              <em>Thesis</em>
+              {%- if page.entry.school %}, {{ page.entry.school }}{%- endif %}
             {%- endif %}
             {%- if page.entry.month %} {{ page.entry.month | capitalize }}{%- endif %}
             {%- if page.entry.year %} {{ page.entry.year }}{%- endif %}
@@ -119,6 +131,22 @@
         </header>
 
         <article class="post-content">
+          {%- if page.entry.preview %}
+          <figure class="bibliography-detail-preview">
+            {%- if page.entry.ft %}
+            <a href="{{ page.entry.ft | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ page.entry.title | strip_html | escape }} as PDF">
+            {%- endif %}
+            {%- if page.entry.preview contains '://' %}
+            <img src="{{ page.entry.preview }}" alt="Figure preview for {{ page.entry.title | strip_html | escape }}" width="800" height="600" decoding="async">
+            {%- else %}
+            <img src="{{ page.entry.preview | prepend: '/assets/img/publication_preview/' | relative_url }}" alt="Figure preview for {{ page.entry.title | strip_html | escape }}" width="800" height="600" decoding="async">
+            {%- endif %}
+            {%- if page.entry.ft %}
+            </a>
+            {%- endif %}
+          </figure>
+          {%- endif %}
+
           {%- if page.entry.abstract %}
           <h2>Abstract</h2>
           <p>{{ page.entry.abstract }}</p>

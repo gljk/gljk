@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Marko Galjak
-    - name: Year Born
-      value: 1987
     - name: Languages
       value: Serbian, English
 
@@ -15,19 +13,19 @@
       institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2022
       description:
-        - Premature Mortality in Serbia
+        - <a href="/bibliography/galjak_premature_mortality_dissertation_2022.html">Premature Mortality in Serbia</a>
       
     - title: MSc in Social Sciences and Computing
       institution:  The University of Belgrade, Serbia
       year: 2017
       description:
-        - Application of the R Programming Language in Computer Analysis of Social Networks - Example of the 2016 Serbian Elections
+        - <a href="/bibliography/galjak_social_networks_2017.html">Application of the R Programming Language in Computer Analysis of Social Networks - Example of the 2016 Serbian Elections</a>
 
     - title: MSc in Demography
       institution: The University of Belgrade, Faculty of Geography, Serbia
       year: 2014
       description:
-        - Mortality in Serbia and the European Union - A Comparative Analysis
+        - <a href="/bibliography/galjak_mortality_serbia_eu_2014.html">Mortality in Serbia and the European Union - A Comparative Analysis</a>
 
     - title: BS in Demography
       institution: The University of Belgrade, Faculty of Geography, Serbia
@@ -44,124 +42,153 @@
       institution: Institute of Social Sciences, Belgrade
       year: 2026 - now
       description:
-        - Conducts research on demographic and social issues.
-        - Publishes peer-reviewed papers.  
+        - Conduct research on demographic and social issues.
+        - Publish peer-reviewed papers.
 
     - title: Research Associate
       institution: Institute of Social Sciences, Belgrade
       year: 2023 - 2026
       description:
-        - Produced  "Demographic Challenges in Serbia" virtual exhibition.
+        - Produced the <a href="/projects/virtuelnaizlozba/">Demographic Challenges in Serbia</a> virtual exhibition.
         - Conducted multiple research projects.
-        - Gave an invited talk at <a href="https://dds.org.rs/akademske-novosti/odrzan-prvi-panel-novog-odbora-za-proucavanje-stanovnistva-sanu/">Serbian Academy of Sciences and Arts</a>.
-        - Publishes peer-reviewed papers.
+        - Published peer-reviewed papers.
 
     - title: Director of Technology
       institution: Catalyst Balkans, Belgrade
       year: 2022 - 2025
       description:
-        - Designed and implemented technology strategies that align with the organization's goals.
-        - Directed the development and implementation of IT products and services.
+        - Directed technical strategy for the organization's regional platforms, including GivingBalkans, Donacije.rs, and Neprofitne.rs.
+        - Built and scaled the digital infrastructure behind regional civic mobilization campaigns.
+        - Led CiviCRM deployments for regional nonprofits, covering donor management, volunteer tracking, and communications.
+        - Integrated payment gateways and automated recurring-donation processing for online fundraising.
+        - Managed a cross-functional IT and data team, technology budgets, and vendor relationships.
 
     - title: Chief Data Scientist
       institution: Catalyst Balkans, Belgrade
       year: 2018 - 2022
       description:
-        - Member of the senior management in charge of strategic decisions.
-        - Directed two teams in the development and implementation of IT products and services.
+        - Member of the senior management in charge of strategic decisions, directing the data and IT teams.
+        - Led the development of the data pipelines behind the Giving Balkans database, structuring regional philanthropy data collected since 2014 for research and API access.
+        - Led the development of a media-article relevance classifier for regional languages, substantially reducing manual data entry.
+        - Led the integration of large language models into the classification and tagging of philanthropy and media data across the Western Balkans.
+        - Developed the interactive data visualization tools used in the annual regional philanthropy reports.
         
     - title: Research Assistant
       institution: Institute of Social Sciences, Belgrade
       year: 2018 - 2022
       description:
         - Published ten peer-reviewed papers.
-        - Defended his PhD thesis.
+        - Defended a doctoral dissertation on premature mortality in Serbia.
 
     - title: CiviCRM Product Owner
       institution: Catalyst Balkans, Belgrade
-      year: 2017-2018
+      year: 2017 - 2018
       description:
         - Developed and implemented CiviCatalyst, a SaaS CRM product for nonprofits in the Western Balkans, based on CiviCRM open-source project.
         - Developed GivingBalkans web application, a philanthropy intelligence tool.
+        - Worked with dozens of civil society organizations across the Western Balkans on adopting the platform and adapting it to their donor management and communication needs.
 
     - title: Volunteer Researcher
       institution: Institute of Social Sciences and The University of Belgrade, Faculty of Geography
       year: 2015 - 2016
       description:
-        - Researching Demographic Phenomena for the Purpose of Public Policies in Serbia.
+        - Contributed to the project "Researching Demographic Phenomena for the Purpose of Public Policies in Serbia".
 
     - title: Demonstrator
       institution: The University of Belgrade, Faculty of Geography
       year: 2014 - 2015
       description:
-        - Labs for Business Statistics.
-        - Labs for Computing.
+        - Taught lab sessions in Business Statistics.
+        - Taught lab sessions in Computing.
 
-- title: Research Grants
+- title: Funded Research Projects
   type: time_table
   contents:
-    - title: Predupredimo.rs
-      year: 2021 - 2022
-      institution: Open Society Foundation, Serbia (Belgrade, RS)
-    - title: Alternative Energy in Serbia? - “Yes, but Not in My Backyard!”
-      year: 2022 - 2023
-      institution: Open Society Foundation, Serbia (Belgrade, RS)
-    - title: Social Sciences Advancement Initiative
-      year: 2024 - 2025
-      institution: The Ministry of Science, Technological Development and Innovation of the Republic of Serbia through Serbia Accelerating Innovation and Entrepreneurship Project (SAIGE)
     - title: Trust and Usage of LLMs in the BCMS Language Sphere
       year: 2024 - 2025
-      institution: Open Society Foundation, Western Balkans
+      institution: Open Society Foundations, Western Balkans
+      description:
+        - 'Role: Principal Investigator.'
+        - 'Outcome: <a href="https://doi.org/10.1080/10447318.2026.2638548">Trust Over Creepiness — AI Chatbot Perceptions in Balkan Countries</a> (International Journal of Human–Computer Interaction), with the four-country survey data, code, and materials openly released on <a href="https://osf.io/utgs8/">OSF</a>.'
+
+    - title: Social Sciences Advancement Initiative
+      year: 2024 - 2025
+      institution: The Ministry of Science, Technological Development and Innovation of the Republic of Serbia, through the Serbia Accelerating Innovation and Entrepreneurship Project (SAIGE)
+      description:
+        - 'Role: Principal Investigator.'
+        - 'Outcome: <a href="https://doi.org/10.1177/08944393251413796">Generational Divide in AI Adoption for Academic Writing — Evidence From Serbian Social Scientists</a> (Social Science Computer Review), based on a survey of social scientists in Serbia.'
+        - 'Outcome: a training program for early-career social scientists in Serbia and the wider Balkans, combining online courses with one-on-one mentorship in academic writing, publishing, data visualization, and the responsible use of AI in research.'
+
+    - title: Alternative Energy in Serbia? - “Yes, but Not in My Backyard!”
+      year: 2022 - 2023
+      institution: 'Open Society Foundation, Serbia — “Serbia and Global Challenges: Towards Fairer and More Democratic Public Policies 2” program'
+      description:
+        - 'Role: Principal Investigator.'
+        - 'Outcome: <a href="https://doi.org/10.1016/j.enpol.2024.114137">Public perceptions of fossil and alternative energy in Serbia — Between NIMBYism and nationalism</a> (Energy Policy), together with a Serbian-language policy brief on the energy transition.'
+
+    - title: Predupredimo.rs
+      year: 2021 - 2022
+      institution: 'Open Society Foundation, Serbia — “Serbia and Global Challenges: Towards Fairer and More Democratic Public Policies” program'
+      description:
+        - 'Role: Principal Investigator.'
+        - 'Outcome: <a href="https://predupredimo.rs">predupredimo.rs</a>, a public interactive tool mapping premature mortality and PM2.5 air pollution across Serbian municipalities.'
+
+- title: Invited Talks & Presentations
+  type: time_table
+  contents:
+    - title: Premature Mortality as a Neglected Demographic Challenge
+      institution: <a href="https://web.archive.org/web/20260905045255/https://dds.org.rs/akademske-novosti/odrzan-prvi-panel-novog-odbora-za-proucavanje-stanovnistva-sanu/">Serbian Academy of Sciences and Arts (SANU)</a>, Belgrade
+      year: 2025
+      description:
+        - Invited talk at the first panel convened by the Academy newly formed Board for the Study of Population.
+
+    - title: Using R for Social Network Analysis of Philanthropy — Leveraging Relational Data for Smarter Giving
+      institution: <a href="https://web.archive.org/web/20191102130544/https://belgrade2018.satrdays.org/">satRday Belgrade 2018</a>, Museum of Science and Technology, Belgrade
+      year: 2018
+      description:
+        - Conference talk on using R and graph theory with relational data to map donor and beneficiary networks in the Western Balkans.
 
 - title: Service & Memberships
   type: time_table
   contents:
     - title: Deputy Editor
-      institution: Stanovništvo (Journal)
+      institution: <a href="https://stnv.idn.org.rs/">Stanovništvo</a> (Journal)
       year: 2023 - now
+      description:
+        - Led the revision of the journal editorial policies and its successful application for indexing in Web of Science.
+        - Introduced anti-plagiarism screening into the peer-review workflow.
+        - Extended the journal online platform with full-text article display, automated reviewer certificates, a customized submission process, and theme improvements.
+
     - title: Member of the Ethics Committee
       institution: Institute of Social Sciences, Belgrade
       year: 2024 - now
+
     - title: Member of the Presidium (Secretary)
       institution: The Association of Demographers of Serbia
       year: 2018 - 2024
+      description:
+        - 'Organized the <a href="https://dds.org.rs/en/conferences/international-scientific-conference-population-in-post-yugoslav-countries-dissimilarities-and-perspective/">International Scientific Conference "Population in Post-Yugoslav Countries: (Dis)similarities and Perspective"</a>, held in Belgrade in April 2024 with participants from eight countries.'
+
     - title: Member
       institution: The Association of Demographers of Serbia
       year: 2018 - now
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Demography
-      items: 
-        - Mortality
-        - Aging
-        - Education
-    - title: Public Health
-      items:
-        - Premature Mortality
-        - Avoidable Mortality
-        - COVID-19
-    - title: Artificial Intelligence
-      items:
-        - Application of AI in social sciences and nonprofit sector
-        - Ethics of AI
-    - title: Education
-      items:
-        - Higher Education
-        - Researcher Training
-    - title: Philanthropy
-      items:
-        - Data-driven philanthropy
-        - Crowdfunding
-
-- title: Other Interests
+- title: Research Areas
   type: list
   contents:
-    - Computational Social Science
-    - Public Policy
-    - Scientometrics
+    - Population health and mortality
+    - Public attitudes toward AI
+    - Philanthropy and civil society
+    - Demographic and social policy
+
+- title: Methods
+  type: list
+  contents:
+    - Survey research
+    - Social network analysis
+    - Spatial analysis
+    - Demographic methods
     - Psychometrics
-    - Open Science
-    - Bioethics
-    - Animal Rights
+    - Statistical modelling
+    - Data visualization
+    - Reproducible research
