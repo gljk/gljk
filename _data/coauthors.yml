@@ -1,9 +1,0 @@
-# Coauthor names listed here are turned into links on the publications page.
-# Keyed by last name; `firstname` lists every spelling that appears in
-# _bibliography/papers.bib so the match works regardless of initials.
-#
-# Example:
-#
-# "Budić":
-#   - firstname: ["Marina", "M."]
-#     url: https://orcid.org/0000-0001-7516-7209
