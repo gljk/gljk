@@ -129,6 +129,8 @@
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif proceedings contains entry.type -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- elsif entry.howpublished -%}
+            {%- capture entrytype -%}<em>{{entry.howpublished}}</em>{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
@@ -140,6 +142,9 @@
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
+            {%- if entry.preprint %}
+            <span class="preprint-label" title="Preprint: not yet peer reviewed">Preprint</span>
+            {%- endif %}
             {{ periodical | strip }}
           </div>
         {%- endif %}

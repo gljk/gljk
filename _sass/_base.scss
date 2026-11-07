@@ -463,6 +463,29 @@ footer.sticky-bottom {
   margin: 0.5rem 0 0.6rem;
 }
 
+// Marks entries that are not yet peer reviewed (`preprint = {yes}` in papers.bib)
+.preprint-label {
+  --preprint-color: #b45309;
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.05rem 0.45rem;
+  border: 1px solid var(--preprint-color);
+  border-radius: 0.25rem;
+  color: var(--preprint-color);
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  text-transform: uppercase;
+  vertical-align: 0.1em;
+  cursor: help;
+}
+
+html[data-theme='dark'] .preprint-label {
+  --preprint-color: #fbbf24;
+}
+
 .open-science-badge {
   display: inline-flex;
   border-bottom: 0;

@@ -104,6 +104,9 @@
             {%- endfor %}
           </p>
           <p class="post-meta">
+            {%- if page.entry.preprint %}
+            <span class="preprint-label" title="Preprint: not yet peer reviewed">Preprint</span>
+            {%- endif %}
             {%- assign proceedings = "inproceedings,incollection" | split: ',' -%}
             {%- if page.entry.type == "article" -%}
               <em>{{ page.entry.journal }}</em>
@@ -124,6 +127,8 @@
             {%- elsif page.entry.type == "thesis" -%}
               <em>Thesis</em>
               {%- if page.entry.school %}, {{ page.entry.school }}{%- endif %}
+            {%- elsif page.entry.howpublished -%}
+              <em>{{ page.entry.howpublished }}</em>
             {%- endif %}
             {%- if page.entry.month %} {{ page.entry.month | capitalize }}{%- endif %}
             {%- if page.entry.year %} {{ page.entry.year }}{%- endif %}
